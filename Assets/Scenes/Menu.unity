@@ -569,7 +569,7 @@ GameObject:
   - component: {fileID: 313138667}
   - component: {fileID: 313138666}
   m_Layer: 5
-  m_Name: EvilUncleButton
+  m_Name: KachujinButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -806,7 +806,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Camille
+  m_text: Abe
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1112,8 +1112,8 @@ MonoBehaviour:
   mySelectedCharacter: 0
   allCharacters:
   - {fileID: 919132149155446097, guid: 753902dcc0a27c84f9e105b57caec092, type: 3}
-  - {fileID: 919132149155446097, guid: 2ae72aa6332f93f468ad28e20c479727, type: 3}
-  - {fileID: 919132149155446097, guid: f15575313c4c8a147abb1544360d6567, type: 3}
+  - {fileID: 919132149155446097, guid: 583c371eb2faef5449b8c0164d4f36b9, type: 3}
+  - {fileID: 919132149155446097, guid: c2531934274abf54082251aedb6dc011, type: 3}
 --- !u!4 &787124074
 Transform:
   m_ObjectHideFlags: 0
@@ -1311,7 +1311,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Evil Uncle
+  m_text: Kachujin
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -2243,7 +2243,7 @@ GameObject:
   - component: {fileID: 1951677197}
   - component: {fileID: 1951677196}
   m_Layer: 5
-  m_Name: CamilleButton
+  m_Name: AbeButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

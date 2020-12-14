@@ -595,6 +595,7 @@ GameObject:
   - component: {fileID: 7172620206539315079}
   - component: {fileID: 6607135462888938559}
   - component: {fileID: 1796823377691063257}
+  - component: {fileID: -5184431285453166278}
   m_Layer: 0
   m_Name: PlayerAvatar
   m_TagString: Player
@@ -692,7 +693,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   normalSpeed: 5
-  runSpeed: 10
   speed: 0
   jumpForce: 15
   gravity: -9.8
@@ -763,6 +763,25 @@ MonoBehaviour:
   maxHp: 100
   hp: 0
   healthbar: {fileID: 8705305535307429151}
+--- !u!95 &-5184431285453166278
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4898095115416036821}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: e1c05da74f8921340a087f543520bf70, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &7446933639431731143
 GameObject:
   m_ObjectHideFlags: 0

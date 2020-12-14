@@ -52,5 +52,12 @@ public class AvatarSetup : MonoBehaviourPun
 
         // Set healthbar UI to max because bug sometimes, idk why
         //GetComponent<PlayerHealth>().healthbar.SetHealth(myHealthbar.maximumHealth);
+
+        // Set animator's avatar
+        //GetComponent<Animator>().avatar = myCharacter.GetComponent<Avatar>();
+        //HumanDescription description = BuildHumanDescription(myCharacter);
+        Avatar avatar = AvatarBuilder.BuildGenericAvatar(myCharacter, PlayerInfo.PI.allCharacters[whichCharacter].name);
+        GetComponent<Animator>().avatar = avatar;
+
     }
 }

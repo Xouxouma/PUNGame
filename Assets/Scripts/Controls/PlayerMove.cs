@@ -6,7 +6,7 @@ using Photon.Pun;
 public class PlayerMove : MonoBehaviourPun
 {
     public float normalSpeed = 5.0f;
-    public float runSpeed = 10.0f;
+    //public float runSpeed = 10.0f;
     public float speed;
     public float jumpForce = 60.0f;
     public float gravity = -9.8f;
@@ -16,6 +16,7 @@ public class PlayerMove : MonoBehaviourPun
     private bool doubleJumpAvailable = true;
 
     private CharacterController _charController;
+    private Animator _charAnimator;
 
     //public PlayerAnimate playerAnimate;
 
@@ -27,6 +28,7 @@ public class PlayerMove : MonoBehaviourPun
         speed = normalSpeed;
         // isJumping = false;
         _charController = GetComponent<CharacterController>();
+        _charAnimator = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -35,14 +37,14 @@ public class PlayerMove : MonoBehaviourPun
         if (!photonView.IsMine)
             return;
 
-        if (Input.GetKeyDown(KeyCode.LeftShift) && _charController.isGrounded)
-        {
-            speed = runSpeed;
-        }
-        if (Input.GetKeyUp(KeyCode.LeftShift) && _charController.isGrounded)
-        {
-            speed = normalSpeed;
-        }
+        //if (Input.GetKeyDown(KeyCode.LeftShift) && _charController.isGrounded)
+        //{
+        //    speed = runSpeed;
+        //}
+        //if (Input.GetKeyUp(KeyCode.LeftShift) && _charController.isGrounded)
+        //{
+        //    speed = normalSpeed;
+        //}
 
 
 
@@ -98,7 +100,8 @@ public class PlayerMove : MonoBehaviourPun
         }
 
         Vector3 jumpVector = new Vector3(0, verticalVelocity, 0);
-        _charController.Move(jumpVector * Time.deltaTime);        
+        _charController.Move(jumpVector * Time.deltaTime);
+        _charAnimator.SetFloat("speed", Input.GetAxis("Vertical"));
 
     }
 
