@@ -98,89 +98,89 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11876}
-    - Class: 114
-      Script: {instanceID: 11878}
-    - Class: 114
-      Script: {instanceID: 11880}
-    - Class: 114
       Script: {instanceID: 11882}
     - Class: 114
-      Script: {instanceID: 11914}
+      Script: {instanceID: 11884}
     - Class: 114
-      Script: {instanceID: 11926}
+      Script: {instanceID: 11886}
     - Class: 114
-      Script: {instanceID: 12092}
+      Script: {instanceID: 11888}
     - Class: 114
-      Script: {instanceID: 12114}
+      Script: {instanceID: 11922}
     - Class: 114
-      Script: {instanceID: 12192}
+      Script: {instanceID: 11934}
+    - Class: 114
+      Script: {instanceID: 12104}
+    - Class: 114
+      Script: {instanceID: 12126}
     - Class: 114
       Script: {instanceID: 12204}
     - Class: 114
-      Script: {instanceID: 12278}
+      Script: {instanceID: 12216}
     - Class: 114
-      Script: {instanceID: 12348}
+      Script: {instanceID: 12290}
     - Class: 114
-      Script: {instanceID: 12492}
+      Script: {instanceID: 12360}
     - Class: 114
-      Script: {instanceID: 12776}
+      Script: {instanceID: 12504}
     - Class: 114
-      Script: {instanceID: 12818}
+      Script: {instanceID: 12790}
     - Class: 114
-      Script: {instanceID: 12862}
+      Script: {instanceID: 12832}
     - Class: 114
-      Script: {instanceID: 12934}
+      Script: {instanceID: 12876}
     - Class: 114
-      Script: {instanceID: 13068}
+      Script: {instanceID: 12952}
     - Class: 114
-      Script: {instanceID: 13142}
+      Script: {instanceID: 13088}
     - Class: 114
-      Script: {instanceID: 13224}
+      Script: {instanceID: 13164}
     - Class: 114
-      Script: {instanceID: 13448}
+      Script: {instanceID: 13248}
     - Class: 114
-      Script: {instanceID: 13536}
+      Script: {instanceID: 13374}
     - Class: 114
-      Script: {instanceID: 13622}
+      Script: {instanceID: 13476}
     - Class: 114
-      Script: {instanceID: 13630}
+      Script: {instanceID: 13564}
     - Class: 114
-      Script: {instanceID: 13642}
+      Script: {instanceID: 13652}
     - Class: 114
-      Script: {instanceID: 13686}
+      Script: {instanceID: 13660}
     - Class: 114
-      Script: {instanceID: 13690}
-    - Class: 114
-      Script: {instanceID: 13708}
+      Script: {instanceID: 13672}
     - Class: 114
       Script: {instanceID: 13718}
     - Class: 114
-      Script: {instanceID: 13882}
+      Script: {instanceID: 13722}
     - Class: 114
-      Script: {instanceID: 13904}
+      Script: {instanceID: 13740}
     - Class: 114
-      Script: {instanceID: 13914}
+      Script: {instanceID: 13750}
     - Class: 114
-      Script: {instanceID: 13980}
+      Script: {instanceID: 13916}
     - Class: 114
-      Script: {instanceID: 14066}
+      Script: {instanceID: 13938}
     - Class: 114
-      Script: {instanceID: 14276}
+      Script: {instanceID: 13948}
     - Class: 114
-      Script: {instanceID: 14316}
+      Script: {instanceID: 14014}
     - Class: 114
-      Script: {instanceID: 14466}
+      Script: {instanceID: 14100}
     - Class: 114
-      Script: {instanceID: 14548}
+      Script: {instanceID: 14310}
     - Class: 114
-      Script: {instanceID: 14566}
+      Script: {instanceID: 14350}
     - Class: 114
-      Script: {instanceID: 14606}
+      Script: {instanceID: 14502}
     - Class: 114
-      Script: {instanceID: 14610}
+      Script: {instanceID: 14584}
     - Class: 114
-      Script: {instanceID: 59744}
+      Script: {instanceID: 14602}
+    - Class: 114
+      Script: {instanceID: 14642}
+    - Class: 114
+      Script: {instanceID: 14646}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -239,7 +239,7 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 12744}
+      Script: {instanceID: 12758}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -261,22 +261,28 @@ ScriptsOnlyBuild:
     className: Button
   - hash:
       serializedVersion: 2
-      Hash: caa533b001ae39b864ba8425019e2268
-    assemblyName: UnityEngine.UI.dll
-    namespaceName: UnityEngine.UI
-    className: Shadow
-  - hash:
-      serializedVersion: 2
       Hash: 0c05f2bfb402def3f0a85a62a2323c7f
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: Slider
   - hash:
       serializedVersion: 2
+      Hash: caa533b001ae39b864ba8425019e2268
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Shadow
+  - hash:
+      serializedVersion: 2
       Hash: a1f19ad47d3094e235f21b74dfc423a8
     assemblyName: Unity.Postprocessing.Runtime.dll
     namespaceName: UnityEngine.Rendering.PostProcessing
     className: PostProcessLayer
+  - hash:
+      serializedVersion: 2
+      Hash: e4db0ddf42150a3b60bd39cf2bc3def2
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CFX_LightFlicker
   - hash:
       serializedVersion: 2
       Hash: 80d2851602cb4bcb6f559596c5eb955b
@@ -325,6 +331,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TMP_SelectionCaret
+  - hash:
+      serializedVersion: 2
+      Hash: 671420ad2c33f1ddaf6d076461adf15a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CFX_Demo_Translate
   - hash:
       serializedVersion: 2
       Hash: 4f417ca0a3b31b376eb402726c240bde
@@ -723,6 +735,12 @@ ScriptsOnlyBuild:
     className: AsteroidsGameManager
   - hash:
       serializedVersion: 2
+      Hash: 1d0beb1a2d4edee4c06b6835632e83a3
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CFX_AutoStopLoopedEffect
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: PhotonUnityNetworking.Demos.dll
     namespaceName: Photon.Pun.Demo
@@ -909,6 +927,12 @@ ScriptsOnlyBuild:
     className: GunAim
   - hash:
       serializedVersion: 2
+      Hash: 4aac268d7e435f7a65add91aaba819a4
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CFX_Demo_RandomDir
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Assembly-CSharp.dll
     namespaceName: Photon.Chat.UtilityScripts
@@ -931,6 +955,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: PhotonPlayer
+  - hash:
+      serializedVersion: 2
+      Hash: 3f5031037e63abe5dcf87c278e01a4de
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CFX_Demo_RotateCamera
   - hash:
       serializedVersion: 2
       Hash: c656dcc13ae391b68d594cc8f9c590b0
@@ -997,6 +1027,12 @@ ScriptsOnlyBuild:
     assemblyName: PhotonUnityNetworking.Demos.dll
     namespaceName: Photon.Pun.Demo.Cockpit
     className: PlayerDetailsController
+  - hash:
+      serializedVersion: 2
+      Hash: 5d27c6e85ec89cfab8577e9e26695e88
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CFX_AutoDestructShuriken
   - hash:
       serializedVersion: 2
       Hash: d6fc8d3165070298511ec776ea575626
@@ -1077,6 +1113,12 @@ ScriptsOnlyBuild:
     className: CurrentRoomIsVisibleProperty
   - hash:
       serializedVersion: 2
+      Hash: 660deb0ce569359218f0ba85b7ce0e3a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CFX_LightIntensityFade
+  - hash:
+      serializedVersion: 2
       Hash: c656dcc13ae391b68d594cc8f9c590b0
     assemblyName: PhotonUnityNetworking.Demos.dll
     namespaceName: Photon.Pun.Demo.Cockpit
@@ -1087,6 +1129,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Postprocessing.Runtime.dll
     namespaceName: UnityEngine.Rendering.PostProcessing
     className: PostProcessDebug
+  - hash:
+      serializedVersion: 2
+      Hash: 8bdb3f3be9a91c513c0a96ef8b68a061
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Healthbar
   - hash:
       serializedVersion: 2
       Hash: 4fd8bf02e3089425d3502e26c44ba31a
@@ -1173,6 +1221,12 @@ ScriptsOnlyBuild:
     className: PlayerUI
   - hash:
       serializedVersion: 2
+      Hash: dad3a1f1e1ecb4691721bab721edd60a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CFX_AutoRotate
+  - hash:
+      serializedVersion: 2
       Hash: e7f4e9cb5468a346609dfdb36da26dcc
     assemblyName: PhotonUnityNetworking.Demos.dll
     namespaceName: Photon.Pun.Demo.Cockpit.Forms
@@ -1219,6 +1273,12 @@ ScriptsOnlyBuild:
     assemblyName: PhotonUnityNetworking.Demos.dll
     namespaceName: Photon.Pun.Demo.Asteroids
     className: LobbyMainPanel
+  - hash:
+      serializedVersion: 2
+      Hash: 421b20ccd7815ebee5e2b14a986d2efc
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CFX_Demo_New
   - hash:
       serializedVersion: 2
       Hash: 3164bc883ff663a5cdb32d1ef7e7c0c5
@@ -1497,6 +1557,12 @@ ScriptsOnlyBuild:
     className: MoveByKeys
   - hash:
       serializedVersion: 2
+      Hash: e70e7b311a1620c2e899545b2e1fdfae
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CFX_Demo_RandomDirectionTranslate
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: PhotonUnityNetworking.Utilities.dll
     namespaceName: Photon.Pun.UtilityScripts
@@ -1771,74 +1837,8 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
-  - hash:
-      serializedVersion: 2
-      Hash: e4db0ddf42150a3b60bd39cf2bc3def2
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: CFX_LightFlicker
-  - hash:
-      serializedVersion: 2
-      Hash: 671420ad2c33f1ddaf6d076461adf15a
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: CFX_Demo_Translate
-  - hash:
-      serializedVersion: 2
-      Hash: 1d0beb1a2d4edee4c06b6835632e83a3
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: CFX_AutoStopLoopedEffect
-  - hash:
-      serializedVersion: 2
-      Hash: 4aac268d7e435f7a65add91aaba819a4
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: CFX_Demo_RandomDir
-  - hash:
-      serializedVersion: 2
-      Hash: 3f5031037e63abe5dcf87c278e01a4de
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: CFX_Demo_RotateCamera
-  - hash:
-      serializedVersion: 2
-      Hash: 5d27c6e85ec89cfab8577e9e26695e88
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: CFX_AutoDestructShuriken
-  - hash:
-      serializedVersion: 2
-      Hash: 660deb0ce569359218f0ba85b7ce0e3a
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: CFX_LightIntensityFade
-  - hash:
-      serializedVersion: 2
-      Hash: dad3a1f1e1ecb4691721bab721edd60a
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: CFX_AutoRotate
-  - hash:
-      serializedVersion: 2
-      Hash: 421b20ccd7815ebee5e2b14a986d2efc
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: CFX_Demo_New
-  - hash:
-      serializedVersion: 2
-      Hash: e70e7b311a1620c2e899545b2e1fdfae
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: CFX_Demo_RandomDirectionTranslate
-  - hash:
-      serializedVersion: 2
-      Hash: 8bdb3f3be9a91c513c0a96ef8b68a061
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Healthbar
   platform: 19
   scenePathNames:
   - Assets/Scenes/Menu.unity
   - Assets/Scenes/Multiplayer.unity
-  playerPath: H:/Unity Projects/GameClient/Builds/PUNgame.exe
+  playerPath: H:/Unity Projects/Standalones/PUNgame/PUNgame.exe
